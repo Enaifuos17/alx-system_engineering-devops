@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# displays Best School 10 times.
+# This script prints "Best school" 10 times
+n=1
 
-COUNTER=0
-while [ $COUNTER -lt 10 ]
+while [ $n -le 10 ]
 do
     echo "Best School"
-    let COUNTER=COUNTER+1
+    n=$(( n + 1 ))
 done
